@@ -1,12 +1,16 @@
 🧪 Reto de Automatización QA - BackEnd
 
+
 🎯 Objetivo
+
 Desarrollar una suite de pruebas automatizadas para la API de Usuarios de ServeRest utilizando Karate DSL.
 
 📖 Historia de Usuario
 Como administrador del sistema,
 Quiero gestionar los usuarios a través de la API,
 Para administrar eficientemente la base de datos de usuarios.
+
+__________________________________________________________________________________________________________________
 
 ⚙️ Especificaciones Técnicas
 1. Configuración del Proyecto
@@ -27,6 +31,8 @@ POST /usuarios – Registrar un nuevo usuario
 GET /usuarios/{_id} – Obtener usuario por ID
 PUT /usuarios/{_id} – Actualizar información de un usuario
 DELETE /usuarios/{_id} – Eliminar un usuario
+
+__________________________________________________________________________________________________________________
 
 ▶️ Ejecución de Pruebas
 Para ejecutar la suite de pruebas, utiliza el siguiente comando:
