@@ -35,9 +35,10 @@ DELETE /usuarios/{_id} – Eliminar un usuario
 __________________________________________________________________________________________________________________
 
 ▶️ Ejecución de Pruebas
+
 Para ejecutar la suite de pruebas, utiliza el siguiente comando:
 
-mvn clean test
+-> mvn clean test
 
 Ejemplo de ejecución en Maven:
 
