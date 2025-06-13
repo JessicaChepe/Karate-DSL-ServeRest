@@ -1,36 +1,38 @@
-1. Objetivo
-Crear una suite de pruebas automatizadas para la API de Usuarios de ServeRest 
-(https://serverest.dev/) utilizando Karate DSL.
+🧪 Reto de Automatización QA - BackEnd
 
-Historia de Usuario
-Como un administrador del sistema, 
-Quiero poder gestionar los usuarios a través de la API, 
-Para administrar la base de datos de usuarios.
+🎯 Objetivo
+Desarrollar una suite de pruebas automatizadas para la API de Usuarios de ServeRest utilizando Karate DSL.
 
+📖 Historia de Usuario
+Como administrador del sistema,
+Quiero gestionar los usuarios a través de la API,
+Para administrar eficientemente la base de datos de usuarios.
 
-Especificaciones
+⚙️ Especificaciones Técnicas
+1. Configuración del Proyecto
+Inicializa el proyecto con el arquetipo oficial de Karate DSL:
 
-1. Configurar el proyecto con Karate DSL.
-    Comando para generar el arquetipo:
-  mvn archetype:generate \
+mvn archetype:generate \
   -DarchetypeGroupId=io.karatelabs \
   -DarchetypeArtifactId=karate-archetype \
   -DarchetypeVersion=1.5.0 \
   -DgroupId=com.mycompany \
   -DartifactId=myproject
-   
-3. Implementar escenarios de prueba para cada operación CRUD:
-• GET /usuarios - Listar usuarios
-• POST /usuarios - Registrar usuario
-• GET /usuarios/{_id} - Buscar usuario por ID
-• PUT /usuarios/{_id} - Actualizar usuario
-• DELETE /usuarios/{_id} - Eliminar usuario
 
-Ejecución 
+2. Escenarios de Prueba (CRUD)
+Implementar pruebas automatizadas para las siguientes operaciones de la API:
 
-Comando: 
+GET /usuarios – Listar todos los usuarios
+POST /usuarios – Registrar un nuevo usuario
+GET /usuarios/{_id} – Obtener usuario por ID
+PUT /usuarios/{_id} – Actualizar información de un usuario
+DELETE /usuarios/{_id} – Eliminar un usuario
+
+▶️ Ejecución de Pruebas
+Para ejecutar la suite de pruebas, utiliza el siguiente comando:
+
 mvn clean test
 
-RunMaven:
+Ejemplo de ejecución en Maven:
 
-![image](https://github.com/user-attachments/assets/93894222-6215-4b56-bc5a-e31cd3dac2e4)
+![image](https://github.com/user-attachments/assets/58b8a157-92ba-427d-b845-ccacb7ec1157)
