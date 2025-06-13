@@ -42,3 +42,6 @@ mvn clean test
 Ejemplo de ejecución en Maven:
 
 ![image](https://github.com/user-attachments/assets/58b8a157-92ba-427d-b845-ccacb7ec1157)
+
+
+![image](https://github.com/user-attachments/assets/46dbb3f9-afae-4bd5-a920-4f2a60bff90a)
